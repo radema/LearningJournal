@@ -7,8 +7,11 @@
         "id": "f2002ec65406cdf4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,7 @@
   },
   "active": "f2002ec65406cdf4",
   "lastOpenFiles": [
+    "README.md",
     "ANAS/Project management.md",
     "ANAS/Pasted image 20220116202743.png",
     "ANAS/MLOps.md",
@@ -92,7 +97,6 @@
     "ANAS/MLOps environment.md",
     "Supporto Psicologico.md",
     "Explainability/Notes - Explainable AI.md",
-    "Explainability/Slides/Slide2.md",
-    "Explainability/Slides/Slide3.md"
+    "Explainability/Slides/Slide2.md"
   ]
 }
