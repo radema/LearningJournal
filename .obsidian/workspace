@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "A Daily Log/20220220.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "A Daily Log/20220220.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "f2002ec65406cdf4",
   "lastOpenFiles": [
+    "A Daily Log/20220220.md",
+    "Continuous Learning/Mr. Rip.md",
     "README.md",
     "ANAS/Project management.md",
     "ANAS/Pasted image 20220116202743.png",
@@ -95,8 +97,6 @@
     "ANAS/MLFlow.md",
     "ANAS/Kedro.md",
     "ANAS/MLOps environment.md",
-    "Supporto Psicologico.md",
-    "Explainability/Notes - Explainable AI.md",
-    "Explainability/Slides/Slide2.md"
+    "Supporto Psicologico.md"
   ]
 }
