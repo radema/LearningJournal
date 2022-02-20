@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "A Daily Log/20220220.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,23 +74,46 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "b5738a8e35546cc2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "155d617218d3d8b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "A Daily Log/20220220.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "f2002ec65406cdf4",
   "lastOpenFiles": [
     "A Daily Log/20220220.md",
-    "Continuous Learning/Mr. Rip.md",
     "Continuous Learning/Obsidian.md",
+    "Continuous Learning/Mr. Rip.md",
     "README.md",
     "ANAS/Project management.md",
     "ANAS/Pasted image 20220116202743.png",
