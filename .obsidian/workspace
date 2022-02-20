@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "48bb4666fe6e1285",
+        "id": "f2002ec65406cdf4",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,6 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48bb4666fe6e1285",
-  "lastOpenFiles": []
+  "active": "f2002ec65406cdf4",
+  "lastOpenFiles": [
+    "ANAS/Project management.md",
+    "ANAS/Pasted image 20220116202743.png",
+    "ANAS/MLOps.md",
+    "ANAS/MLFlow.md",
+    "ANAS/Kedro.md",
+    "ANAS/MLOps environment.md",
+    "Supporto Psicologico.md",
+    "Explainability/Notes - Explainable AI.md",
+    "Explainability/Slides/Slide2.md",
+    "Explainability/Slides/Slide3.md"
+  ]
 }
