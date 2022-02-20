@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "A Daily Log/20220220.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -90,13 +90,13 @@
   "lastOpenFiles": [
     "A Daily Log/20220220.md",
     "Continuous Learning/Mr. Rip.md",
+    "Continuous Learning/Obsidian.md",
     "README.md",
     "ANAS/Project management.md",
     "ANAS/Pasted image 20220116202743.png",
     "ANAS/MLOps.md",
     "ANAS/MLFlow.md",
     "ANAS/Kedro.md",
-    "ANAS/MLOps environment.md",
-    "Supporto Psicologico.md"
+    "ANAS/MLOps environment.md"
   ]
 }
