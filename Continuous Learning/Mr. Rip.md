@@ -7,3 +7,10 @@
 
 ### Block References
 ![[20220220#^062c12]]
+
+- [[Education]]
+- [[Critical Thinking]]
+- [[Career Development]]
+- [[Personal Finance]]
+- [[Finance Independence]]
+- [[Creative Curiosity]]
