@@ -1,5 +1,5 @@
 # Learning Journal
-#learning #mrrip #journal
+#learning #mrrip #journal ^440c1c
 
 ### What is this
 The goal of this repository is to contain all the learning materials I may find useful for personal projects and development.
