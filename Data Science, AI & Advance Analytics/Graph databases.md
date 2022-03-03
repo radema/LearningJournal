@@ -2,6 +2,8 @@ tags:
 - #graphdb 
 - #graph 
 - #AnomalyDetection
+- #ml 
+- #explainability
 
 
 # References
@@ -36,7 +38,7 @@ The challenges with respect to data are the same we face working with big data:
 3. Novel Anomalies
 4. “Explaining-away” the Anomalies
 
-### Anomaly Detection in Statis Graphs
+### Anomaly Detection in Static Graphs
 The main task is to spot anomalous network entities (e.g., nodes, edges, subgraphs) given the entire graph structure. 
 It is possible to work with plain graphs or **attributed graphs**.
 
@@ -50,3 +52,30 @@ Approaches
 3. **Community-based**, rely on finding densely connected groups of “close-by” nodes in the graph and spot nodes and/or edges that have connections across communities. In fact, the definition of anomaly under this setting can be thought of as finding “bridge” nodes/edges that do not directly belong to one particular community.
 4. **Structure-based**, identify substructures in the graph that are rare structurally, i.e. connectivity-wise, as well as attribute-wise. As such, inverse of frequent attributed subgraphs are sought out
 5. **Relation learning-based**,  exploit the relationships between the objects to assign them into classes, where the number of classes is often two: anomalous and normal.
+
+---
+
+### Anomalies in dynamic graphs
+
+> Given a sequence of (plain or attributed) graphs, find (i) the timestamps that correspond to a change or event, as well as (ii) the top-k nodes, edges, or parts of the graphs that contribute most to the change (attribution).
+
+Approaches:
+1. **Feature-based**, the general approach in detecting anomalous timestamps in the evolution of dynamic graphs can be summarized as extract summary, compare consecutive graphs and select based on distance or threshold
+2. **Decomposition-based**, detect temporal anomalies by resorting to matrix or tensor decomposition of the time-evolving graphs, and interpreting appropriately selected eigenvectors, eigenvalues or singular values.
+3. **Community-based**, monitor graph communities or clusters over time and report an event when there is structural or contextual change in any of them.
+4. **Window-based**,  methods that are bound to a time window in order to spot anomalous patterns and behaviors in the input graph sequence.
+
+
+### Interpretability
+> Given a set of anomalies of graph entities (nodes and edges) interpret and explain the detection of the individual anomalies, find and characterize the associations among the anomalies.
+
+Two possible approaches:
+- **Individual** interpretations
+- **Global** interpretations
+
+### Use cases
+- subscription fraud <- the fraudster often acquires an account using false identity with the intention of using the service for free and not making any payments.
+- action frauds <- e fraudsters’ behavior reveals that in order to game the feedback and reputation system, fraudster create additional accounts or “roles” called accomplices. Accomplices and fraudster do not necessarily interact among each other. Moreover, honest users trade among themselves as well as with accomplices that also look like honest users. 
+- accounting fraud <- spotting high-risk accounts with suspicious transactions behavior
+- security networks <- spot securities brokers that are likely to commit fraud and other violations of securities regulations in the future
+- computer networks <- the nodes represent the agents in the networks, such as ad/file/directory servers and client nodes, and edges represent their communications over the network (note that the edges may be weighted, capturing volume or frequency). The insight behind tracking the dynamic nature of the network graph is the assumption that the communication behavior of a compute node would change when under attack.
