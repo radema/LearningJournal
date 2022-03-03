@@ -122,3 +122,19 @@ Expand beyond our business logic to automatically identify other users that are 
 
 - User [[Weighted Degree Centrality]] to recommend potential high risk accounts over the whole graph -> global method
 - Apply similarity algorithms to score and recommend users similar to specific instances -> local method
+- Node **similarity** parallelizes well and is **explainable**. It identifies pairs of similar nodes based on a straightforward Jaccard similarity calculation. Alternatives:  FastRP + KNN
+
+#### Part 4 - Predicting Fraud Risk Accounts With Machine Learning
+There are multiple reasons why we may want to add supervised machine learning to predict the additional fraud risks:
+1.  **Proactive Detection:** We can train a model to identify fraudulent actors ahead of time (such as before additional chargebacks or system flags) and better identify new communities that aren’t connected to older known fraud accounts.
+2.  **Measurable Performance:** Supervised learning models produce clear performance metrics that enable us to evaluate and adjust as needed.
+3.  **Automation:** Supervised machine learning automates the prediction of fraud risk accounts.
+
+**Building features**:
+- Community Indicator and Size
+- PageRank on P2P With Shared Card Degree
+- Degree Centrality on the Shared Id Rule
+- P2P weighted Degree Centrality and PageRank
+- Degree Centrality for Cards, Devices, and IPs
+
+Then apply ML in python (or RapidMiner)
