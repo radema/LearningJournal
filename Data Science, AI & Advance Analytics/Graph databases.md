@@ -79,3 +79,46 @@ Two possible approaches:
 - accounting fraud <- spotting high-risk accounts with suspicious transactions behavior
 - security networks <- spot securities brokers that are likely to commit fraud and other violations of securities regulations in the future
 - computer networks <- the nodes represent the agents in the networks, such as ad/file/directory servers and client nodes, and edges represent their communications over the network (note that the edges may be weighted, capturing volume or frequency). The insight behind tracking the dynamic nature of the network graph is the assumption that the communication behavior of a compute node would change when under attack.
+
+
+--- 
+
+![[20220303#^f9d463]]
+
+-   [**Part 1: Exploring Connected Fraud Data**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-1/)
+-   [**Part 2: Resolving Fraud Communities Using Entity Resolution & Community Detection**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-2/)
+-   [**Part 3: Recommending Suspicious Accounts With Centrality & Node Similarity**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-3/)
+-   [**Part 4: Predicting Fraud Risk Accounts With Machine Learning**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-4/)
+
+#### Part 1 -  Exploring Connected Fraud Data
+Dataset introduction - rteal-world peer-to-peer (P2P) platform. 
+Entities: User, Device, Card, IP.
+Relationships: 
+- User -> P2P -> User
+- User -> Referred -> User
+- User -> Used -> Device
+- User -> HAS_CC-> Card
+- User -> HAS_IP -> IP
+
+> Each user node has an indicator variable for money transfer fraud (named `MoneyTransferFraud`) that is 1 for known fraud and 0 otherwise. This indicator is determined by a combination of credit card chargeback events and manual review. A chargeback is an action taken by a bank to reverse electronic payments. It involves reversing a payment and triggering a dispute resolution process, often for billing errors and unauthorized credit use. In short, a user must have at least one chargeback to be considered fraudulent. Only a small proportion of the user accounts, roughly 0.7 percent, are flagged for fraud.
+
+> ... the fraud activity is not completely labeled given the lack of connectivity and the limited chargeback logic used to flag fraud.
+
+In a graph, we can attempt to roughly identify these fragmented identities with **[[Community Detection]]**, a large set of methods that attempt to partition graphs into well connected groups, a.k.a. Communities, where the connectivity in the communities is significantly higher than outside the community. There are multiple forms of community detection.
+- **Louvain CD**: it uses a form of modularity scoring to split up the graph into hierarchical clusters.
+
+#### Part 2 -  Resolving Fraud Communities Using Entity Resolution & Community Detection
+
+More formal definitions for resolving entities that will allow to partition well-defined communities in a scalable manner.
+Definition of [[Entity Resolution]] (ER) rules that will allow to draw relationshipts between users which belong to the same underlying community. Then, it is is applied the [[Weakly Connected COmponents]] (WCC) algorithmto resolve the communities and all users in communities which include fraudsters are labelled with a fraud risk attribute.
+
+1. ER -> define business rules to create a relationship between two nodes (for example two users)
+2. Use [[Weakly Connected COmponents]] is a scalable community detection algoritmic. It is deterministic and explainable. Detect communities based on set of relationships
+3. Flag communities with at least one fraudster
+
+#### Part 3 - Recommending Suspicious Accounts With Centrality & Node Similarity
+
+Expand beyond our business logic to automatically identify other users that are suspiciously similar to the fraud risks already identified.
+
+- User [[Weighted Degree Centrality]] to recommend potential high risk accounts over the whole graph -> global method
+- Apply similarity algorithms to score and recommend users similar to specific instances -> local method
