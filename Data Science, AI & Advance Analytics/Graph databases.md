@@ -113,7 +113,7 @@ More formal definitions for resolving entities that will allow to partition well
 Definition of [[Entity Resolution]] (ER) rules that will allow to draw relationshipts between users which belong to the same underlying community. Then, it is is applied the [[Weakly Connected COmponents]] (WCC) algorithmto resolve the communities and all users in communities which include fraudsters are labelled with a fraud risk attribute.
 
 1. ER -> define business rules to create a relationship between two nodes (for example two users)
-2. Use [[Weakly Connected COmponents]] is a scalable community detection algoritmic. It is deterministic and explainable. Detect communities based on set of relationships
+2. Use [[Weakly Connected Components]] is a scalable community detection algoritmic. It is deterministic and explainable. Detect communities based on set of relationships
 3. Flag communities with at least one fraudster
 
 #### Part 3 - Recommending Suspicious Accounts With Centrality & Node Similarity
@@ -132,7 +132,7 @@ There are multiple reasons why we may want to add supervised machine learning to
 
 **Building features**:
 - Community Indicator and Size
-- PageRank on P2P With Shared Card Degree
+- [[PageRank]] on P2P With Shared Card Degree
 - Degree Centrality on the Shared Id Rule
 - P2P weighted Degree Centrality and PageRank
 - Degree Centrality for Cards, Devices, and IPs
