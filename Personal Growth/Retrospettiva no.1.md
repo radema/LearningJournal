@@ -81,4 +81,32 @@ Questo, la mancanza di una practice strutturata,  credo sia un problema prettame
 
 # Lezioni per il futuro?
 
-WIP
+Ho avuto recentemente modo di partecipare ad un People Committee per discutere di una serie di promozioni per colleghi junior al primo livello in azienda. Tra le varie candidature e promozioni, quella che mi ha lasciato più perplesso è stata quella relativa ad una ragazza con un dottorato in statistica.
+
+La ragazza, con cui ho avuto modo di collaborare sporadicamente, è indubbiamente brava e merita la promozione che gli è stata data durante l'incontro. La perplessità nasce dai feedback dati da alcuni partecipanti all'incontro che sono rimasti sorpresi dalle qualità di questa ragazza. 
+Elenco quelli che mi ricordo:
+- capacità di apprendimento rapido
+- autonomia
+- capacità di produrre elaborati tecnici
+- esperienza su tecnologie specifiche o settoriale
+- conoscenze teoriche e metodologiche su ambiti specifici
+- capacità di fare una ricerca dello stato dell'arte in ambito statistico/machine learning
+In pratica, alcune persone erano rimaste stupide dal fatto che un phd fosse ... un phd.
+
+Osservando ciò, mi sono fatto una serie di domande:
+- queste persone che aspettative avevano da un phd?
+- l'aspettativa di queste persone dipendeva dal background scientifico della ragazza?
+- secondo loro che competenze ha un phd in generale?
+
+Non nascondo che tutto ciò mi ha un pò turbato e mi ha spinto a rivedere la mia carriera in azienda immedesimandomi nei punti di vista dei miei colleghi o superiori. Questo mi ha portato alle seguenti domande:
+- le persone sanno quali competenze (soft skill) ha un phd?
+- per loro un phd è solo una persona che ha studiato tanto?
+- che tipo di investimento è per un'azienda di consulenza IT un phd in un area non strettamente pertinente all'informatica?
+
+Tutte queste domande mi hanno portato ad alcune riflessioni che nei punti che andrò a specificare di seguito. I punti non valgono solo per chi ha un dottorato ma per chiunque ha, secondo i manager o l'azienda, un **alto potenziale** e che quindi potrebbe seguire un **fast track** all'interno dell'azienda, fino al raggiungimento di un certo livello (manager?).
+1. **Practice & Industry**: Definizione chiara e precisa della practice o industry di riferimento della persona, prioritizzando attivamente lo staffing della persona su progetti della practice o dell'industry
+2. **Coaching & Career**: Mentoring attivo e periodico di queste persone al fine fornirgli i giusti feedback, consigli e insegnamenti non solo dal punto di vista tecnico ma anche manageriale
+3. **Team**: evitare che queste persone lavorino spesso da sole o si ritrovino in team in cui il 99% delle vote sono quelle con più seniorship nella stanza
+4. **Progetti&Staffing**: evitare che queste persone siano staffate per troppo tempo per una percentuale maggioritaria del proprio tempo su uno specifico cliente. L'ideale è attuare una job rotation (di 3-4 mesi).
+5. **Strategia**: è necessario mettere in chiaro, con l'aiuto del career advisor e i manager coinvolti, quali sono i piani e le prospettive per la persona ad alto potenziale. Serve un impegno sia da parte del lavoratore che da parte dell'organizzazione aziendale stessa. Definita la strategia si passa al seguente punto
+6. **Formazione**: bisogna fornire una formazione **preparativa** non tanto sulla practice di riferimento quando sulle competenze al contorno (project management, vendita, etc.) per evitare che la persona sia rallentata o distolta dal fast track.
