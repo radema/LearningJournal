@@ -86,8 +86,8 @@ Two possible approaches:
 ![[20220303#^f9d463]]
 
 -   [**Part 1: Exploring Connected Fraud Data**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-1/)
--   [**Part 2: Resolving Fraud Communities Using Entity Resolution & Community Detection**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-2/)
--   [**Part 3: Recommending Suspicious Accounts With Centrality & Node Similarity**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-3/)
+-   [**Part 2: Resolving Fraud Communities Using Entity Resolution & Community Detection**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-2/) -> Community based approach
+-   [**Part 3: Recommending Suspicious Accounts With Centrality & Node Similarity**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-3/) -> Proximity based approach
 -   [**Part 4: Predicting Fraud Risk Accounts With Machine Learning**](https://neo4j.com/developer-blog/exploring-fraud-detection-neo4j-graph-data-science-part-4/)
 
 #### Part 1 -  Exploring Connected Fraud Data
