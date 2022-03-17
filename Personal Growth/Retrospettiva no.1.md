@@ -91,6 +91,7 @@ Elenco quelli che mi ricordo:
 - esperienza su tecnologie specifiche o settoriale
 - conoscenze teoriche e metodologiche su ambiti specifici
 - capacità di fare una ricerca dello stato dell'arte in ambito statistico/machine learning
+
 In pratica, alcune persone erano rimaste stupide dal fatto che un phd fosse ... un phd.
 
 Osservando ciò, mi sono fatto una serie di domande:
