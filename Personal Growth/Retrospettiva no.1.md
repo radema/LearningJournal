@@ -110,3 +110,5 @@ Tutte queste domande mi hanno portato ad alcune riflessioni che nei punti che an
 4. **Progetti&Staffing**: evitare che queste persone siano staffate per troppo tempo per una percentuale maggioritaria del proprio tempo su uno specifico cliente. L'ideale è attuare una job rotation (di 3-4 mesi).
 5. **Strategia**: è necessario mettere in chiaro, con l'aiuto del career advisor e i manager coinvolti, quali sono i piani e le prospettive per la persona ad alto potenziale. Serve un impegno sia da parte del lavoratore che da parte dell'organizzazione aziendale stessa. Definita la strategia si passa al seguente punto
 6. **Formazione**: bisogna fornire una formazione **preparativa** non tanto sulla practice di riferimento quando sulle competenze al contorno (project management, vendita, etc.) per evitare che la persona sia rallentata o distolta dal fast track.
+
+Non penso che i punti precedenti siano nulla di eccezionale e innovativo. Fast track del genere sono già implementati all'interno di aziende di consulenza (credo McKinsey abbia cosa del genere) o Graduate Program in aziende corporate. 
