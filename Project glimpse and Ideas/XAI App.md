@@ -3,7 +3,7 @@ Fast-to-deploy solution to provide XAI dashboard or tool based on a ML model ins
 
 ---
 
-## Tags: #SideProject #DataScience #explainability #ml 
+## Tags: #SideProject #DataScience [[Explainability]] #ml 
 
 ---
 

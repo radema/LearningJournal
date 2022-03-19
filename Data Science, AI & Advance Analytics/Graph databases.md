@@ -1,9 +1,4 @@
-tags:
-- #graphdb 
-- #graph 
-- #AnomalyDetection
-- #ml 
-- #explainability
+tags: #graphdb #graph #AnomalyDetection #ml [[Explainability]]
 
 
 # References

@@ -1,5 +1,7 @@
 [[A Daily Log/202203/20220316]]
 
+#CareerDevelopment #learning #management
+
 In questa nota voglio scrivere una serie di pensieri al fine di fare una sorta di retrospettiva sulla mia esperienza lavorativa dopo il dottorato. Questa volta scriverò in italiano per scrivere più velocemente e di getto. 
 
 Non farò nomi sull'azienda, sui manager o colleghi perché non ho intenzione di accusare qualcuno e non sono un elemento importante in queste note. 
