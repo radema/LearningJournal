@@ -105,17 +105,17 @@ In a graph, we can attempt to roughly identify these fragmented identities with 
 #### Part 2 -  Resolving Fraud Communities Using Entity Resolution & Community Detection
 
 More formal definitions for resolving entities that will allow to partition well-defined communities in a scalable manner.
-Definition of [[Entity Resolution]] (ER) rules that will allow to draw relationshipts between users which belong to the same underlying community. Then, it is is applied the [[Weakly Connected COmponents]] (WCC) algorithmto resolve the communities and all users in communities which include fraudsters are labelled with a fraud risk attribute.
+Definition of Entity Resolution (ER) rules that will allow to draw relationshipts between users which belong to the same underlying community. Then, it is is applied the Weakly Connected Components (WCC) algorithmto resolve the communities and all users in communities which include fraudsters are labelled with a fraud risk attribute.
 
 1. ER -> define business rules to create a relationship between two nodes (for example two users)
-2. Use [[Weakly Connected Components]] is a scalable community detection algoritmic. It is deterministic and explainable. Detect communities based on set of relationships
+2. Use Weakly Connected Components is a scalable community detection algoritmic. It is deterministic and explainable. Detect communities based on set of relationships
 3. Flag communities with at least one fraudster
 
 #### Part 3 - Recommending Suspicious Accounts With Centrality & Node Similarity
 
 Expand beyond our business logic to automatically identify other users that are suspiciously similar to the fraud risks already identified.
 
-- User [[Weighted Degree Centrality]] to recommend potential high risk accounts over the whole graph -> global method
+- User Weighted Degree Centrality to recommend potential high risk accounts over the whole graph -> global method
 - Apply similarity algorithms to score and recommend users similar to specific instances -> local method
 - Node **similarity** parallelizes well and is **explainable**. It identifies pairs of similar nodes based on a straightforward Jaccard similarity calculation. Alternatives:  FastRP + KNN
 
