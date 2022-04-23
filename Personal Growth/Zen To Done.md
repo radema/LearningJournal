@@ -57,7 +57,7 @@ How to check the inbox:
 - Delegate if you do not have to do it.
 - Do it immediately if it takes 2 minutes or less.
 - Defer it for lates if it takes more than 2 minutes. Add it to your to-do list to do lates
-- File it if it's something you need fore reference.
+- File it if it's something you need for reference.
 In all cases, don't leave items in the inbox. Delete or file them.
 
 ## Plan

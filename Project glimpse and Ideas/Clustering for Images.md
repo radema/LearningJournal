@@ -1,4 +1,7 @@
-Small test to apply a clustering algorithm to extract a color palette. <- Done. A nice notebook on Codelaboratory
+Small test to apply a clustering algorithm to extract a color palette. <- Done. 
+A nice notebook on Codelaboratory:
+- [Processo estrazione color palette.ipynb](https://colab.research.google.com/drive/1a6SVLmEEjeG6Sug8VVgWeY91GvUIu8YY)
+
 
 Few ideas:
 - explore effect of different algorithm
