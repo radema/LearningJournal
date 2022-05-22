@@ -7,12 +7,12 @@ Idea coming from [Interpretable ML Book](https://christophm.github.io/interpreta
 Source code on github [radema/mmd_critic](https://github.com/radema/mmd_critic).
 
 ### Open points
-- Complete notebook for tutorial
 - Complete ReadMe
 	- Instruction to install
 	- Main idea
 	- Repository structure
 - sklearn .fit & .predict methods
+- solve bug find_critics (max empty list obtained with digits dataset)
 - Add to PyPi repository <- WAIT
 
 ### Resources
