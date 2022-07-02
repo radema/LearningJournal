@@ -6,7 +6,6 @@ This notes is divided into two sections. The first one focus on superficial idea
 - [[Amatorial "What-If"-like tool]] for explainability based on [[Streamlit]] and [[Kedro]]
 - Learning on [[Timescale DB]] and [[Timeseries]] analysis
 # Work In Progess
-- Closing slides on [[Explainability]]
 - Learning last advancement about [[Kedro]]
 
 tags: #SideProject 
