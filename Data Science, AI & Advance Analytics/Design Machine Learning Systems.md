@@ -51,3 +51,4 @@ The project would follows these phases:
 4. Deployment -> make models accessible to users. 
 5. Monitoring and continual learning -> monitor performance decay and maintainance to adapt to chaging data and requirements
 6. Business anaysis -> All systems have to be evaluated from a business perspective. 
+
