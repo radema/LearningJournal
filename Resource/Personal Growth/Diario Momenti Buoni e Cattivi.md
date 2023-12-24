@@ -1,3 +1,6 @@
+#CareerDevelopment 
+
+[[Design your Life]]
 ### Momenti buoni
 - sessione di concentrazione con tempo fisso e adeguato per svolgere un analisi con un obiettivo proceso
 - lavoro in collaborazione con altri per raggiungere un determinato obiettivo (analisi strategiche per prendere decisioni, campagna scuole, azioni operative, etc.)
