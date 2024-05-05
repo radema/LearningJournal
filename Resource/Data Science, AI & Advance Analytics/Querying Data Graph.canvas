@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"f220014401c32da5","type":"text","text":"User Question","x":-740,"y":-50,"width":140,"height":50},
+		{"id":"0e9eda9e1503da45","type":"text","text":"Classification","x":-540,"y":-50,"width":160,"height":50,"color":"6"},
+		{"id":"6ce52872c7d357c5","type":"text","text":"CATALOG","x":-280,"y":-200,"width":160,"height":50,"color":"6"},
+		{"id":"0e65172e8ae891a4","type":"text","text":"KPI","x":-280,"y":-100,"width":160,"height":50,"color":"6"},
+		{"id":"07b7a94081c818de","type":"text","text":"EXTRACT","x":-280,"y":15,"width":160,"height":50,"color":"6"},
+		{"id":"b12a4abed0590dc8","type":"text","text":"VISUALIZE","x":-280,"y":125,"width":160,"height":50,"color":"6"},
+		{"id":"699cfb65cc608209","type":"text","text":"Catalog","x":-20,"y":-200,"width":250,"height":50,"color":"5"},
+		{"id":"92a407a19a6acfe5","type":"text","text":"KPI Insight and Highlights","x":-20,"y":-100,"width":250,"height":50,"color":"1"},
+		{"id":"3c44695879735904","type":"text","text":"Data Extraction and Aggregation","x":-20,"y":0,"width":250,"height":80,"color":"2"},
+		{"id":"0178c4ff8fe759f6","type":"text","text":"Data Extraction and Aggregation","x":-20,"y":110,"width":250,"height":80,"color":"4"},
+		{"id":"79ebb4f86a594976","type":"text","text":"Chart","x":260,"y":120,"width":250,"height":60,"color":"4"},
+		{"id":"506d529702a4e446","type":"text","text":"OTHER","x":-280,"y":220,"width":160,"height":50,"color":"6"},
+		{"id":"79c6026271a7d9e6","type":"text","text":"Textual Answer","x":660,"y":0,"width":160,"height":60}
+	],
+	"edges":[
+		{"id":"e22748d5bc0e7bfd","fromNode":"3c44695879735904","fromSide":"right","toNode":"79ebb4f86a594976","toSide":"top","color":"2"},
+		{"id":"3059dfd5adad613f","fromNode":"0178c4ff8fe759f6","fromSide":"right","toNode":"79ebb4f86a594976","toSide":"left"},
+		{"id":"f148b6bb88023e3e","fromNode":"f220014401c32da5","fromSide":"right","toNode":"0e9eda9e1503da45","toSide":"left"},
+		{"id":"2fe4d0a9bc6c3604","fromNode":"0e9eda9e1503da45","fromSide":"right","toNode":"6ce52872c7d357c5","toSide":"left"},
+		{"id":"936cb59558e00e0b","fromNode":"0e9eda9e1503da45","fromSide":"right","toNode":"0e65172e8ae891a4","toSide":"left"},
+		{"id":"64ded03466f2f078","fromNode":"0e9eda9e1503da45","fromSide":"right","toNode":"07b7a94081c818de","toSide":"left"},
+		{"id":"51889d3ee79169e8","fromNode":"0e9eda9e1503da45","fromSide":"right","toNode":"b12a4abed0590dc8","toSide":"left"},
+		{"id":"c37aeb0b9788b9d2","fromNode":"6ce52872c7d357c5","fromSide":"right","toNode":"699cfb65cc608209","toSide":"left"},
+		{"id":"526c2d4581d6dc3b","fromNode":"0e65172e8ae891a4","fromSide":"right","toNode":"92a407a19a6acfe5","toSide":"left"},
+		{"id":"4bd8f45511e288fb","fromNode":"07b7a94081c818de","fromSide":"right","toNode":"3c44695879735904","toSide":"left"},
+		{"id":"8dfd4adbafce0600","fromNode":"b12a4abed0590dc8","fromSide":"right","toNode":"0178c4ff8fe759f6","toSide":"left"},
+		{"id":"2febf1503598b061","fromNode":"0e9eda9e1503da45","fromSide":"right","toNode":"506d529702a4e446","toSide":"left"},
+		{"id":"ba149650c6b6ec2e","fromNode":"506d529702a4e446","fromSide":"right","toNode":"79c6026271a7d9e6","toSide":"bottom","color":"6"},
+		{"id":"1d7477c8a7d784aa","fromNode":"79ebb4f86a594976","fromSide":"right","toNode":"79c6026271a7d9e6","toSide":"bottom","color":"4"},
+		{"id":"7ee58b6c3f12c1d7","fromNode":"3c44695879735904","fromSide":"right","toNode":"79c6026271a7d9e6","toSide":"left","color":"2"},
+		{"id":"193426a248b89e19","fromNode":"92a407a19a6acfe5","fromSide":"right","toNode":"79c6026271a7d9e6","toSide":"top","color":"1"},
+		{"id":"640d19cb0bf8a390","fromNode":"699cfb65cc608209","fromSide":"right","toNode":"79c6026271a7d9e6","toSide":"top","color":"5"}
+	]
+}
